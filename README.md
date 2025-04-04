@@ -1,9 +1,10 @@
-Prerequisites
+**Personal Portfolio Project**
+**Prerequisites**
 Before you begin, ensure you have the following requirements:
 
 Basic or Intermediate knowledge of HTML, CSS, and JavaScript.
 
-This website is developed using Bootstrap 5 and requires the following setup.
+This website is developed using Bootstrap 5 and the following dependencies.
 
 Setup Instructions
 1. Clone the Repository
@@ -31,6 +32,8 @@ jQuery: Required for specific Bootstrap components.
 Bootstrap Icons: Used for icons across the site.
 
 AOS (Animate On Scroll): For scroll-triggered animations.
+
+Ensure that you include these links in your HTML file for them to work properly.
 
 3. AOS Animation Library Setup
 To use the AOS animation library, follow these steps:
