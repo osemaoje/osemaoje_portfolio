@@ -1,79 +1,94 @@
-Prerequisites
-Before you begin, ensure you have met the following requirements:
+Prerequisites:
+Basic or Intermediate knowledge of HTML, CSS, and JavaScript.
 
-You Should Know Basic or Intermediate of HTML ,CSS and JavaScript
-This website is developed by bootstrap 5 copy below code :
-<!--- Bootstrap 5 css CDN Link --->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+Make sure you have Git installed on your machine to clone the repository.
 
-<!-- bootstrap javascript cdn link  -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-JQuery CDN LInk :
-<!-- JavaScript jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-Bootstrap Icon :
-<!-- bootstrap icon cdn link  -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"/>
-AOS Animation Library Installation
-Basic
-Add Styles in <head> :
+Step-by-Step Guide:
+Clone the Repository: Open your terminal or command prompt and run one of the following commands to clone the project to your local machine.
 
+For Linux/macOS:
+
+bash
+Copy
+sudo git clone https://github.com/osemaoje/osemaoje_portfolio.git
+For Windows:
+
+bash
+Copy
+git clone https://github.com/osemaoje/osemaoje_portfolio.git
+Dependencies:
+
+Bootstrap 5: You're using Bootstrap 5 for styling and layout.
+
+jQuery: Required for specific Bootstrap components.
+
+Bootstrap Icons: For icons used throughout the website.
+
+AOS (Animate On Scroll): For animations when elements scroll into view.
+
+AOS Animation Library:
+
+You need to include the AOS CSS and AOS JS libraries for scroll-triggered animations. Add the following in your HTML file:
+
+In the <head> section:
+
+html
+Copy
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-Add script right before closing </body> tag, and initialize AOS :
+Before the closing </body> tag:
 
+html
+Copy
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
-Using package managers
-Install aos package:
+Font Family (Google Fonts - Josefin Sans): To ensure that your website uses the Josefin Sans font, add the following to your <head> section:
 
-yarn add aos@next
-or npm install --save aos@next
-Import script, styles and initialize AOS:
-
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
-In order to make it work you'll have to make sure your build process has configured styles loader, and bundles it all correctly. If you're using Parcel however, it will work out of the box as provided.
-
-How to use it ?
-Initialize AOS :
-// initializing AOS library
-AOS.init({
-  duration: 1000,
-  offset: 50,
-});
-Set animation using data-aos attribute:
-<div data-aos="fade-in"></div>
-For More Guidence Click on AOS Animation
-Project Contain
-Sticky Responsive Navigation Bar
-Hero Section
-Expertise section
-Skill Section with Progress Animation
-Working Portfolio Section
-Testimonial Section
-Blog Section
-Contact Section
-Footer Section
-Fully Responsive for all devices
-Font Family
-I have Used Google Fonts - Josefin Sans
-<!-- google font link -->
+html
+Copy
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-Run Locally
-To run Personal Portfolio locally, run this command on your git bash:
+Running the Project Locally: After cloning the repository, navigate into the project folder:
 
-Linux and macOS:
+bash
+Copy
+cd osemaoje_portfolio
+Then, open the index.html file in your browser to view the project locally.
 
-sudo git clone https://github.com/osemaoje/osemaoje_portfolio.git
-Windows:
+Features:
+Sticky Responsive Navigation Bar: The navigation bar stays at the top of the page as you scroll.
 
-git clone https://github.com/osemaoje/osemaoje_portfolio.git
+Hero Section: Large intro area, often with a background image or video.
 
-License
-This project is Free To Use and does not contains any license.
+Expertise Section: Display your skills and areas of expertise.
+
+Skill Section with Progress Animation: Show your skill levels with animated progress bars.
+
+Portfolio Section: Showcase your projects or work samples.
+
+Testimonial Section: Display client feedback or reviews.
+
+Blog Section: A section for blog posts or news updates (if applicable).
+
+Contact Section: A form or details for visitors to contact you.
+
+Footer Section: Contains copyright and social media links.
+
+Fully Responsive: The site is designed to be mobile-friendly and responsive.
+
+How to Use AOS Animations:
+To add animations to any element, use the data-aos attribute in your HTML.
+
+Example:
+
+html
+Copy
+<div data-aos="fade-in">
+  <!-- Your content here -->
+</div>
+You can change the animation type (e.g., fade-in, zoom-in, slide-up, etc.) based on the effect you want.
+
+License:
+This project is free to use and doesn't contain any specific license.
