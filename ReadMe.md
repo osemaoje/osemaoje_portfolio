@@ -10,15 +10,13 @@
 
   Responsive Portfolio Website using HTML, CSS, and JavaScript.
 
-  <a href="https://pawantech12.github.io/portfolio-website/"><strong>➥ Live Demo</strong></a>
+  <a href="https://osemaoje-portfolio.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
 <br />
 
-### Desktop Preview
 
-https://github.com/pawantech12/portfolio-website/assets/118673866/0322c419-a173-4aa9-a360-b09bd7bd24aa
 
 ### Prerequisites
 
@@ -125,18 +123,15 @@ To run **Personal Portfolio** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/pawantech12/portfolio-website.git
+sudo git clone https://github.com/osemaoje/osemaoje_portfolio.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/pawantech12/portfolio-website.git
+git clone https://github.com/osemaoje/osemaoje_portfolio.git
 ```
 
-### Contact
-
-If you want to contact with me you can reach me at [Instagram](https://www.instagram.com/codewithpawan/).
 
 ### License
 
